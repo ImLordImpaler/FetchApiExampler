@@ -1,0 +1,19 @@
+{% extends 'home/base.html'%}
+{% block content%}
+
+<div class='container'>
+    <div class='row'>
+        <div class='col-md-6'>
+            <img src="https://contents.mediadecathlon.com/p794733/k$31b10cb669dafb4798ee2d483bd11e9b/8166664.jpg?&f=x" style="border: 2px solid black ;height: 500px; width: 400px; margin-top: 50px;" class="card-img-top" alt="...">
+        </div>
+        <div class='col-md-6'>
+                        <h3>About:</h3>
+                      <p class="card-text"> {{products.desc}}</p>
+                        <h3>Price:</h3>
+                      <p class="card-text"> $ {{products.price}}</p>
+           
+        </div>
+    </div>
+</div>
+
+{% endblock%}
